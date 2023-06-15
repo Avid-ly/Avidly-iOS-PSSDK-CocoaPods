@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PSSDK'
-  s.version          = '2.0.0.2'
-  s.summary          = 'PSSDK 2.0.0.2'
+  s.version          = '2.0.0.3'
+  s.summary          = 'PSSDK 2.0.0.3'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Privacy SDK 2.0.0.2
+Privacy SDK 2.0.0.3
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
@@ -24,7 +24,7 @@ Privacy SDK 2.0.0.2
 
   s.frameworks = 'QuartzCore', 'MediaPlayer', 'CoreMedia', 'CoreGraphics', 'CFNetwork', 'WebKit', 'WatchConnectivity', 'SystemConfiguration', 'StoreKit', 'Social', 'MessageUI','JavaScriptCore','EventKit','CoreTelephony','AVFoundation','AdSupport'
 
-  s.vendored_frameworks = 'Framework/PSSDK/PSSDK.framework'
+  s.vendored_frameworks = 'Framework/PSSDK/PSSDK.xcframework'
   
   s.resources = "Framework/PSSDK/PSSDK.bundle"
 
